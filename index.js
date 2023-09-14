@@ -176,11 +176,11 @@ async1()
     console.log(err);
   });
 
-// window.open(
-//   "index.html",
-//   "popupWindow",
-//   "height=640,width=357,left=100,top=100"
-// );
+window.open(
+  "index.html",
+  "popupWindow",
+  "height=640,width=357,left=100,top=100"
+);
 
 // chrome.windows.create({
 //   url: `index.html`,
